@@ -1,0 +1,27 @@
+{
+    "name": "OhanaYa.UIElements.SafeAreaContainer",
+    "rootNamespace": "OhanaYa.UIElements",
+    "references": [
+        "GUID:8c09aa1e4b73db04094be9d510142dd2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.uielements",
+            "expression": "",
+            "define": "SAFE_AREA_CONTAINER_UI_ELEMENTS_MODULE_ENABLED"
+        },
+        {
+            "name": "com.unity.ui",
+            "expression": "",
+            "define": "SAFE_AREA_CONTAINER_UI_TOOLKIT_PACKAGE_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

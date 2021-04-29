@@ -1,0 +1,17 @@
+{
+  "name": "dev.ohanaya.ui.safe-area-container",
+  "displayName": "SafeAreaContainer",
+  "version": "1.0.0",
+  "unity": "2020.1",
+  "description": "Safe area support in UI Toolkit.",
+  "keywords": [
+    "UI",
+    "UIElements",
+    "Runtime UI",
+    "UI Toolkit",
+    "Toolkit",
+    "Safe Area"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
