@@ -14,8 +14,11 @@ namespace OhanaYa.UIElements
         public SafeAreaContainer()
         {
             {
-                this.style.flexGrow = 1;
-                this.style.flexShrink = 1;
+                this.style.position = Position.Absolute;
+                this.style.top = 0;
+                this.style.left = 0;
+                this.style.width = Length.Percent(100);
+                this.style.height = Length.Percent(100);
             }
 
             this.RegisterCallback<GeometryChangedEvent>(this.OnGeometryChanged);
