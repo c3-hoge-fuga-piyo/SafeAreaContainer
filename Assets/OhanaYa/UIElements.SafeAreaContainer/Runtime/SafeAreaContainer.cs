@@ -37,7 +37,7 @@ namespace OhanaYa.UIElements
             var safeArea = Screen.safeArea;
 
             var lt = RuntimePanelUtils.ScreenToPanel(panel, new Vector2(safeArea.xMin, Screen.height - safeArea.yMax));
-            var rb = RuntimePanelUtils.ScreenToPanel(panel, new Vector2(Screen.width - safeArea.xMax, safeArea.xMin));
+            var rb = RuntimePanelUtils.ScreenToPanel(panel, new Vector2(Screen.width - safeArea.xMax, safeArea.yMin));
 
             {
                 this.style.paddingLeft = lt.x;
