@@ -11,7 +11,7 @@ namespace OhanaYa.UIElements
     public sealed class SafeAreaContainer : VisualElement
     {
         #region Constructors
-        public SafeAreaContainer()
+        public SafeAreaContainer() : base()
         {
             {
                 this.style.position = Position.Absolute;
