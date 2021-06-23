@@ -1,7 +1,7 @@
 {
   "name": "dev.ohanaya.ui.safe-area-container",
   "displayName": "SafeAreaContainer",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "unity": "2020.1",
   "description": "Safe area support in UI Toolkit.",
   "keywords": [
